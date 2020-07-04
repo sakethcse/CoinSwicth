@@ -6,7 +6,9 @@ https://pypi.org/project/redis/
 3. open terminal and execute following in order, 
 python3 get_data.py
 python3 exchange_server_cache.py 
-4. The time taken by API to return results is printed on console 
+4. keep the terminal open for server to run and execute following link in any browser,
+localhost:8080/exchange-rate?exchange=kucoin&fromCurrency=BTC&toCurrency=ETH
+5. The time taken by API to return results is printed on console 
 
 Desgin:
 1) API retruns with TIME_OUT if it takes more than 100ms(now it takes approximately < 5ms)
